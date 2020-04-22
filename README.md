@@ -55,6 +55,10 @@ blacklist snd_seq_midi_event
 blacklist snd_rawmidi
 blacklist snd_pcm_oss
 blacklist snd_pcm
+blacklist uio
+blacklist uio_pdrv_genirq
+blacklist parport
+
 
 
 sudo rmmod rfcomm
